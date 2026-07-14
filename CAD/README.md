@@ -17,7 +17,7 @@ CAD/
   04_forearm/         Link 3, J4 roll, motor and bracket
   05_wrist/           Links 4 and 5, J5 and J6, flange
   06_end_effector/    2-finger claw, fingertip switch, RGB-D mount
-  master/             Master assembly and combined STEP (PM only)
+  master/             Master assembly and combined STEP (I maintain this)
 ```
 
 Inside every subassembly folder use these two subfolders:
@@ -35,7 +35,7 @@ Inside every subassembly folder use these two subfolders:
 | .SLDPRT, .SLDASM | `native/` | SolidWorks parts and subassembly |
 | .f3d | `native/` | Fusion 360 source |
 | .step / .stp | `step/` | One STEP export of the full subassembly |
-| Master assembly and combined STEP | `master/` | PM only, do not add here |
+| Master assembly and combined STEP | `master/` | I maintain this, do not add here |
 
 Do not commit backups, autosave copies, temp files, or exports from other tools.
 
@@ -64,8 +64,8 @@ git lfs install
 
 ## Branches and pushing
 
-Each owner works on their own branch, named after their folder. The PM merges every
-branch and resolves any conflicts.
+Each owner works on their own branch, named after their folder. I merge every branch
+and resolve any conflicts.
 
 1. Clone and enter the repo:
    ```
@@ -88,5 +88,5 @@ branch and resolves any conflicts.
    ```
 4. Open a pull request into main. Do not merge it yourself.
 
-The PM reviews each pull request, merges into main, and resolves conflicts. Keeping each
+I review each pull request, merge into main, and resolve conflicts. Keeping each
 subassembly in its own folder means changes stay separated and merges stay clean.
