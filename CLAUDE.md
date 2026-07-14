@@ -45,8 +45,6 @@ README.md         Public-facing summary
 CAD/              Arm design files (native + shared STEP)
 docs/
   design-spec.md         Locked task + design specification
-  meeting-notes.md       Team meeting log
-  research-references.md  Reference projects/repos by phase
 ```
 (Folders for `urdf/`, `ros2_ws/` get added when those phases start.)
 
