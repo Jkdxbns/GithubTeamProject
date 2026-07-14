@@ -48,9 +48,6 @@ effort. We also need a Gazebo grasp-fix plugin, otherwise the gripper drops the 
 | E | Wrist | Links 4+5, J5 & J6, flange |
 | F | End effector + sensors | 2-finger claw, fingertip switch, RGB-D mount + body |
 
-I own the master assembly, the interface sheet (junction faces and the frame
-convention everyone follows), and the sw2urdf export.
-
 ## Export formats
 
 | Format | Purpose |
