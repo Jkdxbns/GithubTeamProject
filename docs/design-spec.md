@@ -11,8 +11,7 @@ matching colored bin. Everything runs in simulation.
   5x5x5 cm, under 0.5 kg each.
 - Colored bins: six of them, 25x25x50 cm (LxWxH), one per color.
 - Base bin: 1x1x1 m.
-- Bin distance: about 0.5 m from the base. We moved these in from 1 m because we're
-  keeping the AR4's ~600 mm reach (see below). We'll pin down exact distances as a team.
+- Bin distance: 0.5 m from the base.
 
 Heads up on colors: black, white and light blue are low saturation, so plain HSV hue
 thresholding struggles with them. Perception will probably need the value channel for
@@ -21,9 +20,8 @@ those three.
 ## The arm
 
 Six DOF, all revolute (yaw, pitch, pitch, roll, pitch, roll). We're basing it on the
-AR4 and keeping its stock dimensions (~600 mm reach) so we can reuse the AR4 ROS/URDF
-stacks. We still model every part from scratch in CAD, using the AR4 only as a
-dimensional reference, so everyone learns the CAD and we can tweak dimensions later.
+AR4 and keeping its stock dimensions (~600 mm reach) so we maintain the universal style
+of AR4, we design everything from scratch on CAD.
 
 Motor sizing follows the AR4: bigger steppers on J1-J3 (base, shoulder, elbow carry
 the most load), smaller ones on J4-J6 (wrist).
