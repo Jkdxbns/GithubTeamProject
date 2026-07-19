@@ -11,12 +11,13 @@ inside your own folder.
 
 ```
 CAD/
-  01_base/            Fixed base, J1 yaw housing and motor
-  02_shoulder/        Link 1, J2 pitch, motor and bracket
-  03_upper_arm/       Link 2, J3 pitch, motor and bracket
-  04_forearm/         Link 3, J4 roll, motor and bracket
-  05_wrist/           Links 4 and 5, J5 and J6, flange
-  06_end_effector/    2-finger claw, fingertip switch, RGB-D mount
+  01_base/            Fixed base,
+  02_shoulder/        Link 1
+  03_upper_arm/       Link 2
+  04_forearm/         Link 3
+  05_wrist/           Links 4 and 5
+  06_palm/            Link 6
+  07_end_effector/    2-finger claw, fingertip switch, RGB-D mount
   master/             Master assembly and combined STEP (I maintain this)
 ```
 
